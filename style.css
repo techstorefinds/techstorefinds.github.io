@@ -240,43 +240,61 @@ footer{
 
 @media(max-width:768px){
 
-nav{
+    nav{
 
-    flex-direction:column;
+        flex-direction:column;
 
-}
+        align-items:center;
 
-.menu{
+        gap:15px;
 
-    margin-top:15px;
+        padding:15px;
 
-}
+    }
 
-.menu a{
+    .logo{
 
-    display:block;
+        font-size:28px;
 
-    margin:10px 0;
+    }
 
-}
+    .menu{
 
-.hero h1{
+        display:flex;
 
-    font-size:32px;
+        flex-wrap:wrap;
 
-}
+        justify-content:center;
 
-.hero p{
+        gap:15px;
 
-    font-size:16px;
+    }
 
-}
+    .menu a{
 
-.card{
+        margin:0;
 
-    width:100%;
+        font-size:15px;
 
-}
+    }
+
+    .hero h1{
+
+        font-size:32px;
+
+    }
+
+    .hero p{
+
+        font-size:16px;
+
+    }
+
+    .card{
+
+        width:100%;
+
+    }
 
 }
 .card img{
