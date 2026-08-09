@@ -308,3 +308,60 @@ footer{
     margin-bottom:20px;
 
 }
+
+/* Article Section */
+
+.article{
+max-width:900px;
+margin:60px auto;
+padding:0 20px;
+line-height:1.8;
+}
+
+.article h2{
+text-align:center;
+margin-bottom:25px;
+}
+
+.article h3{
+margin-top:25px;
+color:#1f66e5;
+}
+
+.article p{
+text-align:left;
+margin-bottom:15px;
+}
+
+/* Comparison Table */
+
+.comparison-table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+.comparison-table th,
+.comparison-table td{
+border:1px solid #ddd;
+padding:12px;
+text-align:center;
+}
+
+.comparison-table th{
+background:#1f66e5;
+color:white;
+}
+
+.comparison-table tr:nth-child(even){
+background:#f8f8f8;
+}
+
+@media (max-width:768px){
+
+.comparison-table{
+display:block;
+overflow-x:auto;
+}
+
+}
